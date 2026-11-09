@@ -1,0 +1,105 @@
+# Unity — основа: https://github.com/github/gitignore/blob/main/Unity.gitignore
+.utmp/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+*.log
+
+# Резервные копии Blender (*.blend импортируются Unity, *.blend1 не нужны)
+*.blend1
+*.blend1.meta
+
+# Снимки памяти — большие и могут содержать чувствительные данные
+/[Mm]emoryCaptures/
+
+# Записи Unity Recorder
+/[Rr]ecordings/
+
+# Восстановленные сцены после падения редактора
+/[Aa]ssets/_Recovery/
+/[Aa]ssets/_Recovery.meta
+
+# Плагин Rider
+/[Aa]ssets/Plugins/Editor/JetBrains*
+*.DotSettings.user
+
+# Кэши IDE и сборки
+.vs/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Отчёты о падениях
+sysinfo.txt
+mono_crash.*
+crashlytics-build.properties
+
+# Сборки и пакеты
+*.apk
+*.aab
+*.app
+*.unitypackage
+*.unitypackage.meta
+
+# Сцены, которые создают тесты
+InitTestScene*.unity*
+/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Addressables — результаты сборки
+/ServerData
+/[Aa]ssets/StreamingAssets/aa*
+/[Aa]ssets/AddressableAssetsData/link.xml*
+/[Aa]ssets/Addressables_Temp*
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+
+# Visual Scripting — сгенерированное
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+
+# UI Toolkit и кэш сцен
+/UIElementsSchema/
+/[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Claude Code: скиллы копируются в проект вручную, локальные настройки — свои у каждого
+.claude/
+
+# Документация (dev-docs): HTML генерируется сборкой, зависимости просмотрщика ставятся сами
+/[Dd]ocs/_html/
+node_modules/
+
+# Редакторы
+.idea/
+.vscode/
+
+# ОС
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Проект ---
+# Свои исключения: исходники ассетов, которые не идут в игру (PSD, превью), большие сторонние папки.
+# Пример: /Assets/ThirdParty/<Пак>/PSD File/  и  /Assets/ThirdParty/<Пак>/PSD File.meta
