@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5adb0daeef0c68844bfeb17043858ceb, type: 3}
+  m_Name: LevelGenerationConfig
+  m_EditorClassIdentifier: Assembly-CSharp::BallGame.Gameplay.LevelGenerationConfig
+  pathLength: {x: 15, y: 26}
+  lateralOffset: 2.6
+  fieldHalfWidth: 8
+  fieldPadding: 8
+  obstacleRadius: 0.4
+  spacing: {x: 1.05, y: 1.3}
+  jitter: 0.25
+  emptiness: {x: 0.25, y: 0.45}
+  noiseScale: 0.22
+  stripePeriod: 4.5
+  islandSpacing: 4.6
+  startClearRadius: 2.4
+  doorClearRadius: 3.4
+  thinningStep: 0.15
+  maxAttempts: 6

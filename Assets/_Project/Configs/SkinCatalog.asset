@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7ecdb1702c86441bdb900df68b8c5c, type: 3}
+  m_Name: SkinCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::BallGame.Skins.SkinCatalog
+  defaultSkinId: orange
+  skins:
+  - id: orange
+    displayName: Classic
+    price: 0
+    material: {fileID: 2100000, guid: fa5b97a541c39ab4db0047799d85a067, type: 2}
+    icon: {fileID: 21300000, guid: 8220731a3cd9afe4987c5a0c53242b99, type: 3}
+    mainColor: {r: 1, g: 0.64705884, b: 0.22745098, a: 1}
+  - id: sky
+    displayName: Sky Dots
+    price: 100
+    material: {fileID: 2100000, guid: 303c238bca6887c4e849b63b325d23c8, type: 2}
+    icon: {fileID: 21300000, guid: f7a799145aaf0ab40afdede1b1556dc0, type: 3}
+    mainColor: {r: 0.24705882, g: 0.654902, b: 0.9607843, a: 1}
+  - id: bubblegum
+    displayName: Candy
+    price: 150
+    material: {fileID: 2100000, guid: 86f6a135a4e90734e8bd27d7264cffce, type: 2}
+    icon: {fileID: 21300000, guid: 4f620c67c62be694281b496aeb6ecc6b, type: 3}
+    mainColor: {r: 1, g: 0.43529412, b: 0.70980394, a: 1}
+  - id: lime
+    displayName: Lime
+    price: 200
+    material: {fileID: 2100000, guid: 5eb044e23b7c67146a7f891511ad26e0, type: 2}
+    icon: {fileID: 21300000, guid: 52bcc064113020c47bbe10054b2d443d, type: 3}
+    mainColor: {r: 0.5568628, g: 0.8784314, b: 0.2901961, a: 1}
+  - id: grape
+    displayName: Grape
+    price: 300
+    material: {fileID: 2100000, guid: 5505d95f653227d41a6d8b62e4c9d492, type: 2}
+    icon: {fileID: 21300000, guid: 62740a2994761f346841f77d414c4b58, type: 3}
+    mainColor: {r: 0.60784316, g: 0.36078432, b: 1, a: 1}
+  - id: ruby
+    displayName: Star Ruby
+    price: 450
+    material: {fileID: 2100000, guid: 3824fd74f404aa646b1d124420ffcc4b, type: 2}
+    icon: {fileID: 21300000, guid: fbc065b41e2398748863a7b179a76a94, type: 3}
+    mainColor: {r: 0.9098039, g: 0.20392157, b: 0.30588236, a: 1}
+  - id: gold
+    displayName: Gold
+    price: 600
+    material: {fileID: 2100000, guid: 087fde2d47a660b458e15d41302fb10a, type: 2}
+    icon: {fileID: 21300000, guid: 2b096a18fc573b74eb832db45439420e, type: 3}
+    mainColor: {r: 1, g: 0.7882353, b: 0.23529412, a: 1}
+  - id: snow
+    displayName: Snow
+    price: 800
+    material: {fileID: 2100000, guid: 3482d0fa55f346146b426de947a48699, type: 2}
+    icon: {fileID: 21300000, guid: eac4c022be03b6342ba22c63fee385a8, type: 3}
+    mainColor: {r: 0.95686275, g: 0.96862745, b: 1, a: 1}

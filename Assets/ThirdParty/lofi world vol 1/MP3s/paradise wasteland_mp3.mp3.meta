@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: add707478eb946f42ad27fe9499c2ca1
+AssetOrigin:
+  serializedVersion: 1
+  productId: 214014
+  packageName: lofi world vol 1 (7 free music tracks)
+  packageVersion: 1.0
+  assetPath: Assets/lofi world vol 1/MP3s/paradise wasteland_mp3.mp3
+  uploadId: 483314
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 8
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 2
+    sampleRateSetting: 1
+    sampleRateOverride: 0
+    compressionFormat: 1
+    quality: 0.45
+    conversionMode: 0
+    preloadAudioData: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 1
+  loadInBackground: 1
+  ambisonic: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

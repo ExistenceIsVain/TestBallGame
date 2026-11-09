@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7cbe63958d04694198e537f64275852, type: 3}
+  m_Name: Theme_Forest
+  m_EditorClassIdentifier: Assembly-CSharp::BallGame.Gameplay.LevelTheme
+  obstacleMesh: {fileID: 4781277628412113339, guid: 14efaf7b0b0c36d43b48771a630cb5e0, type: 3}
+  obstacleMeshScale: {x: 1.05, y: 1.05, z: 1.05}
+  obstacleMaterial: {fileID: 2100000, guid: 2f8db610f5a3d4f418e2baf69c059db2, type: 2}
+  burstColor: {r: 1, g: 0.6, b: 0.15, a: 1}
+  groundMaterial: {fileID: 2100000, guid: 1f407d426d6ca5e42b09a5162f07b90b, type: 2}
+  skyColor: {r: 0.9019608, g: 0.7529412, b: 0.56078434, a: 1}

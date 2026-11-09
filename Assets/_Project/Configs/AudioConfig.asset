@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3bf8d45790f7dd4cbc717facd13e099, type: 3}
+  m_Name: AudioConfig
+  m_EditorClassIdentifier: Assembly-CSharp::BallGame.Audio.AudioConfig
+  musicTracks:
+  - {fileID: 8300000, guid: 731e2268cdf3d94448d0ed018ded0c5b, type: 3}
+  - {fileID: 8300000, guid: e17eb874ef32c1945b7aa165164a8b7e, type: 3}
+  - {fileID: 8300000, guid: feb4677bed7c73b4ea14f77569dab333, type: 3}
+  - {fileID: 8300000, guid: add707478eb946f42ad27fe9499c2ca1, type: 3}
+  - {fileID: 8300000, guid: f3ee1a1312fec124788ae7ac752587cb, type: 3}
+  - {fileID: 8300000, guid: cd1035904226cd04097e9f035812aba5, type: 3}
+  - {fileID: 8300000, guid: 1d139a301cb0fe44e8f45e8af50ff242, type: 3}
+  musicVolume: 0.4
+  voices: 8
+  sounds:
+  - id: 0
+    clips:
+    - {fileID: 8300000, guid: 5679283c1b04fd04e931b94944fc4a4e, type: 3}
+    volume: 0.7
+    pitchJitter: 0.05
+    cooldown: 0
+  - id: 1
+    clips:
+    - {fileID: 8300000, guid: 2985f2bfc88744246bb68cdbaa2446c3, type: 3}
+    volume: 0.7
+    pitchJitter: 0
+    cooldown: 0
+  - id: 2
+    clips:
+    - {fileID: 8300000, guid: c89d1865d660fe3488971adbb3d8e510, type: 3}
+    volume: 0.45
+    pitchJitter: 0
+    cooldown: 0
+  - id: 3
+    clips:
+    - {fileID: 8300000, guid: 394d0daae16cab84ebdbf2c60d5d5903, type: 3}
+    volume: 0.9
+    pitchJitter: 0.08
+    cooldown: 0
+  - id: 4
+    clips:
+    - {fileID: 8300000, guid: 389a5f171be5fb643b57f6575e84b29f, type: 3}
+    volume: 0.9
+    pitchJitter: 0.08
+    cooldown: 0
+  - id: 5
+    clips:
+    - {fileID: 8300000, guid: daaed861a070bdd4ab7c0702c5c15215, type: 3}
+    - {fileID: 8300000, guid: a32d21ed6f7443148bca67b91891c612, type: 3}
+    - {fileID: 8300000, guid: 29ee7c7c1428cfb4489ddb3673cd5724, type: 3}
+    volume: 0.55
+    pitchJitter: 0.15
+    cooldown: 0.045
+  - id: 6
+    clips:
+    - {fileID: 8300000, guid: ce6d79d09d1ffa04891a7e7d25e5f30b, type: 3}
+    volume: 0.35
+    pitchJitter: 0.1
+    cooldown: 0
+  - id: 7
+    clips:
+    - {fileID: 8300000, guid: beb295e4c717e624b899e2423e7495c4, type: 3}
+    volume: 0.9
+    pitchJitter: 0
+    cooldown: 0
+  - id: 8
+    clips:
+    - {fileID: 8300000, guid: f39e4bc003b7333428a20a2ed06c3718, type: 3}
+    volume: 1
+    pitchJitter: 0
+    cooldown: 0
+  - id: 9
+    clips:
+    - {fileID: 8300000, guid: 2af7799a78f6b554fae1156adb5ec247, type: 3}
+    volume: 0.9
+    pitchJitter: 0
+    cooldown: 0
+  - id: 10
+    clips:
+    - {fileID: 8300000, guid: f39e4bc003b7333428a20a2ed06c3718, type: 3}
+    volume: 0.9
+    pitchJitter: 0
+    cooldown: 0
+  - id: 11
+    clips:
+    - {fileID: 8300000, guid: 69eb48bce60049b40b5a3a3656fb66dc, type: 3}
+    volume: 0.8
+    pitchJitter: 0
+    cooldown: 0
